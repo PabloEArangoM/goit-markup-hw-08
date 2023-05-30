@@ -1,0 +1,35 @@
+.section--a-que-nos-dedicamos {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.h2--imagenes {
+    padding-bottom: 50px;
+}
+
+.ul--imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+.imagen {
+    flex-basis: calc((100% - 46px) / 3);
+    position: relative;
+}
+
+.img__p--descripcion {
+    position: absolute;
+    width: 370px;
+    background-color: rgba(47, 48, 58, 0.8);
+    height: 70px;
+    padding: 27px 0;
+    bottom: 0;
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}

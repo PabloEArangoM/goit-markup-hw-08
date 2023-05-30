@@ -1,0 +1,122 @@
+.div__h3--tajetas {
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+    font-size: 18px;
+    line-height: 2;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.li__button--botones-portafolio:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.li__button--botones-portafolio {
+    font-family: "Roboto", sans-serif;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+}
+
+.li__button--botones-portafolio:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.section--portafolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.ul--botones {
+    list-style-type: none;
+    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.ul--tarjetas {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.li--tarjetas {
+    flex-basis: calc((100% - 180px) / 9);
+    cursor: pointer;
+}
+
+.li--tarjetas:nth-child(3n) {
+    padding-right: 0;
+}
+
+.li--tarjetas:nth-last-child(-n + 3) {
+    padding-bottom: 0;
+}
+
+.div--tarjetas-descripcion {
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    padding: 38px 24px;
+}
+
+.div--p--texto-tarjetas {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+.div--tarjetas-descripcion-exepcion {
+    padding: 20px 24px;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+
+.li--tarjetas:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.div--img {
+    position: relative;
+    overflow: hidden;
+}
+
+.div__p--overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 149, 243, 0.9);
+    color: var(--primary-white-color);
+    top: 0;
+    left: 0;
+    padding: 87px 20px;
+    align-items: center;
+    display: flex;
+    transform: translateY(calc(100% + 3px));
+    transition: transform ease-in 0.25s;
+}
+
+.li--tarjetas:hover .div--img .div__p--overlay {
+    transform: translateY(0);
+}

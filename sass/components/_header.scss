@@ -1,0 +1,110 @@
+.header {
+    width: auto;
+    border-bottom: 1px solid #ececec;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__ul--links {
+    display: flex;
+    align-items: center;
+    padding-left: 93px;
+}
+
+.header__li--links {
+    padding-left: 50px;
+}
+
+.header__ul--contactos {
+    display: flex;
+    margin-left: auto;
+}
+
+.header__li--contactos {
+    padding-left: 50px;
+    align-items: center;
+}
+
+.header__link--correo {
+    color: #757575;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: medium;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.02em;
+}
+
+.header__link--numero-telefonico {
+    color: var(--primery-text-color);
+    font-weight: 500;
+}
+
+.links:focus {
+    background-color: var(--primary-white-color);
+    color: var(--accent-color);
+}
+
+.header__link--numero-telefonico {
+    font-family: "Roboto", sans-serif;
+    font-style: medium;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.02em;
+}
+
+.header__link--correo,
+.header__link--numero-telefonico {
+    display: block;
+    padding: 32px 0px;
+    display: inline-flex;
+}
+
+.header__svg--telefono {
+    height: 16px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+.header__svg--correo {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.header__svg--correo,
+.header__svg--telefono {
+    fill: currentColor;
+}
+
+.header--links {
+    font-family: "Roboto", sans-serif;
+    font-style: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: left;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header__svg--correo:hover,
+.header__svg--correo:focus,
+.header__svg--telefono:hover,
+.header__svg--telefono:focus {
+    fill: var(--accent-color);
+}
+
+.active {
+    color: var(--accent-color);
+    border-bottom: 4px solid #2196F3;
+}

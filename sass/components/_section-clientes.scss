@@ -1,0 +1,36 @@
+.ul--empresas {
+    display: flex;
+    gap: 30px;
+}
+
+.link--empresa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    padding: 16px 32px;
+    fill: var(--primery-text-color);
+}
+
+.link--empresa:hover,
+.link--empresa:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.empresa-svg {
+    height: 60px;
+    width: 106px;
+}
+
+.section--clientes {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.h2--clientes-regulares {
+    padding-bottom: 50px;
+}

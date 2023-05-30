@@ -1,0 +1,67 @@
+.section--nuestro-equipo {
+    background-color: var(--second-background);
+}
+
+.section__h2--nuestro-equipo {
+    padding-bottom: 50px;
+    padding-top: 94px;
+}
+
+.section__ul--equipo {
+    display: flex;
+    padding-bottom: 94px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.li--tarjeta-equipo {
+    background-color: var(--primary-white-color);
+    flex-basis: calc((100% - 90px) / 4);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.li__div--informacion-integrante {
+    padding: 30px 0px;
+}
+
+.h3--integrante {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.profecion {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.ul--redes-sociales-equipo {
+    display: flex;
+    gap: 10px;
+    padding: 0px 32px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.red {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    fill: var(--primery-text-color);
+}
+
+.red:focus,
+.red:hover {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    fill: var(--primary-white-color);
+}

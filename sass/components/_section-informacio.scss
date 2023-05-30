@@ -1,0 +1,35 @@
+.section__ul--informacion {
+    display: flex;
+    gap: 30px;
+}
+
+.section__li--material {
+    flex-basis: calc((100% - 90px) / 4);
+}
+
+.section--informacion {
+    padding-top: 94px;
+}
+
+.section__h3--titulo {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.antena,
+.reloj,
+.diagrama,
+.astronauta {
+    width: 70px;
+    height: 70px;
+}
+
+.div__svg--bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--second-background);
+}
