@@ -35,3 +35,9 @@
     margin-left: auto;
     z-index: 5;
 }
+
+@include screen-480{
+    .h1--servicio{
+        font-size: 34px;
+    }
+}
