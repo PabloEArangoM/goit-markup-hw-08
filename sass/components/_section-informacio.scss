@@ -34,7 +34,7 @@
     background-color: var(--second-background);
 }
 
-@include screen-480{
+@media screen and (max-width: 480px){
     .section__ul--informacion{
         display: block;
     }

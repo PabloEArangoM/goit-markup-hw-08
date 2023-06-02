@@ -36,7 +36,7 @@
     z-index: 5;
 }
 
-@include screen-480{
+@media screen and (max-width:480px){
     .h1--servicio{
         font-size: 34px;
     }
