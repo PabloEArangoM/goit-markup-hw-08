@@ -33,3 +33,14 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+@media screen and (max-width: 480px) {
+    .section--a-que-nos-dedicamos{
+        transform: scale(0%);
+        width: 0px;
+        height: 0px;
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+}

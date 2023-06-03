@@ -12,6 +12,7 @@
     padding-bottom: 94px;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
 }
 
 .li--tarjeta-equipo {
@@ -64,4 +65,35 @@
     background-color: var(--accent-color);
     border-radius: 50%;
     fill: var(--primary-white-color);
+}
+.section__nuestro-equipo--img{
+    width: 270px;
+    height: 260px;
+}
+
+@media screen and (max-width: 480px){
+    .section__h2--nuestro-equipo{
+        font-size: 28px;
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+    .li--tarjeta-equipo{
+        width: 450px;
+    }
+    .section__ul--equipo{
+        width: 450px;
+        margin-bottom: 30px;
+        align-items: center;
+    }
+    .section__nuestro-equipo--img{
+        width: 450px;
+        height: 460px;
+    }
+    .ul--redes-sociales-equipo{
+        align-items: center;
+        justify-content: center;
+    }
+    .red{
+        fill: #AFB1B8;
+    }
 }

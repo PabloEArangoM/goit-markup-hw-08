@@ -33,9 +33,26 @@
     margin-bottom: 30px;
     background-color: var(--second-background);
 }
+.section__p--texto{
+    padding-bottom: 0;
+}
 
 @media screen and (max-width: 480px){
     .section__ul--informacion{
         display: block;
+        width: 450px;
     }
+    .section__h3--titulo{
+        text-align: center;
+    }
+    .div__svg--bg{
+        width: 450px;
+    }
+    .section__p--texto{
+        padding-bottom: 30px;
+    }
+    .section--informacion{
+        padding-top: 60px;
+    }
+
 }
