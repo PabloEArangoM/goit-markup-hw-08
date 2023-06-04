@@ -144,3 +144,63 @@ footer {
     fill: var(--primary-white-color);
     margin-left: 10px;
 }
+
+
+@media screen and (max-width: 480px){
+    .footer{
+        width: 480px;
+        text-align: center;
+        display: block;
+    }
+    .container-footer{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__div--address{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__li--contactos{
+        width: auto;        
+    }
+    .footer__li--contactos:not(:last-child){
+        padding-right: 0;
+        padding-bottom: 12px;
+    }
+    .footer__ul--contactos{
+        padding-bottom: 60px;
+    }
+    .encuentranos{
+        text-align: center;
+        padding-left: 0;
+    }
+    .encuentranosen{
+        text-align: center;
+    }
+    .footer__ul--redes-sociales{
+        text-align: center;
+        display: inline-flex;
+        padding-bottom: 60px;
+    }
+    .div--suscribase{
+        margin-left: 0;
+    }
+    .div__p--formulario{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .footer__form{
+        display: block;
+    }
+    .footer__button--suscribase{
+        display: unset;
+        margin-top: 20px;
+    }
+    .footer-email{
+        width: 450px;
+        height: 50px;
+    }
+}
