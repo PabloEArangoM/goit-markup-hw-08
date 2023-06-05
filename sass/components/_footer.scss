@@ -148,9 +148,10 @@ footer {
 
 @media screen and (max-width: 480px){
     .footer{
-        width: 480px;
+        max-width: 480px;
         text-align: center;
         display: block;
+        position: absolute
     }
     .container-footer{
         display: block;

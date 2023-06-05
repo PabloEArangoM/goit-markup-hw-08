@@ -113,3 +113,109 @@
         display: none;
     }
 }
+@media screen and (max-width: 480.98px){
+    .header__button--menu{
+        border-radius: 0;
+        border: 0;
+        background-color: var(--primary-white-color);
+        z-index: 0;
+    }
+    .header__mobile-menu{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        width: 450px;
+    }
+    .header{
+        max-width: 480px;
+    }
+    .mobile-menu{
+        padding: 10px 15px;
+    }
+    .logo{
+        font-weight: 700;
+        height: 28px;
+    }
+    .header__menu{
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        overflow-y: scroll;
+        padding: 48px 40px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .is-open{
+        display: block;
+    }
+    .boton__menu-cerrar{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        border: 0;
+        border-radius: 0;
+        background-color: var(--primary-white-color);
+    }
+    .header__li--mobile{
+        display: block;
+        margin-bottom: 32px;
+    }
+    .link__mobile{
+        color: var(--title-text-color);
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 1.17;
+        letter-spacing: .02em;
+        text-decoration: none;
+    }
+    .active-mobile{
+        color: var(--accent-color);
+    }
+    .header__ul--mobile{
+        margin-bottom: 306px;
+    }
+    .mobile-contacto{
+        color: #2196f3;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 1.17;
+        letter-spacing: .02em;
+        text-decoration: none;
+    }
+    .mobile-contacto-size-{
+        font-size: 24px;
+        color: #757575;
+        line-height: 1.17;
+        letter-spacing: .02em;
+        font-weight: 500;
+    }
+    .ul--contactos--mobile{
+        margin-bottom: 64px;
+    }
+    .social__ul--mobile{
+        display: flex;
+    }
+    .social__links--mobile{
+        border-right: 1px solid rgba(33, 33, 33, .2);
+        padding: 0 10px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.22;
+        letter-spacing: .02em;
+        text-decoration: none;
+    }
+    .redes--mobile{
+        color: var(--accent-color);
+    }
+}
+@media screen and (min-width: 481px){
+    .mobile-menu{
+        display: none;
+    }
+}
