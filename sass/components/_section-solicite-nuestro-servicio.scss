@@ -36,7 +36,7 @@
     z-index: 5;
 }
 
-@media screen and (max-width:480px){
+@media screen and (min-width:480px) and (max-width:767px){
     .h1--servicio{
         font-size: 26px;
         width: 360px;
@@ -44,5 +44,11 @@
     }
     .section--servicio{
         max-width: 480px;
+        background-image: url("../images/Headermobile.jpg");
+    }
+}
+@media screen and (min-width:768px) and (max-width:1199px){
+    .section--servicio{
+        background-image: url("../images/hero-768.jpg");
     }
 }

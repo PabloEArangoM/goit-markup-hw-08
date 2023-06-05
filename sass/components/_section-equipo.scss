@@ -71,7 +71,7 @@
     height: 260px;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (min-width:480px) and (max-width:767px){
     .section__h2--nuestro-equipo{
         font-size: 28px;
         padding-bottom: 30px;
@@ -99,5 +99,15 @@
     }
     .section--nuestro-equipo{
         max-width: 480px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px){
+    .section__h2--nuestro-equipo{
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .section__ul--equipo{
+        padding-bottom: 60px;
     }
 }

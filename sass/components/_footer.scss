@@ -146,7 +146,7 @@ footer {
 }
 
 
-@media screen and (max-width: 480px){
+@media screen and (min-width:480px) and (max-width:767px){
     .footer{
         max-width: 480px;
         text-align: center;
@@ -203,5 +203,47 @@ footer {
     .footer-email{
         width: 450px;
         height: 50px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1199px){
+    .container-footer{
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .footer__li--contactos:not(:last-child){
+        padding-right: 0;
+        padding-bottom: 12px;
+    }
+    .footer__div--address{
+        margin-bottom: 60px;
+    }
+    .encuentranos{
+        padding-left: 0;
+        margin-bottom: 60px;
+        bottom: 30px;
+        position: relative;
+    }
+    .footer__form{
+        display: block;
+    }
+    .div--suscribase{
+        margin-left: 0;
+        text-align: center;
+    }
+    .div__p--formulario{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer-email{
+        margin-bottom: 20px;
+        width: 450px;
+    }
+    .footer__button--suscribase{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 130px;
     }
 }
