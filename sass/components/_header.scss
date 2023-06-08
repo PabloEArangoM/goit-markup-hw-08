@@ -108,12 +108,12 @@
     color: var(--accent-color);
     border-bottom: 4px solid #2196F3;
 }
-@media screen and (min-width:480px) and (max-width:767px){
+@media screen and (min-width:50px) and (max-width:767px){
     .header__nav{
         display: none;
     }
 }
-@media screen and (min-width:480px) and (max-width:767px){
+@media screen and (min-width:50px) and (max-width:767px){
     .header__button--menu{
         border-radius: 0;
         border: 0;
@@ -246,9 +246,6 @@
     }
     .header__ul--contactos{
         display: block;
-    }
-    .header__nav{
-
     }
     .header__link--correo,.header__link--numero-telefonico{
         padding: 0;
